@@ -17,8 +17,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps.xml:system/etc/gps.xml \
     $(LOCAL_PATH)/apns/apns-conf.xml:system/etc/apns-conf.xml
 
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
-
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
@@ -44,8 +42,6 @@ PRODUCT_COPY_FILES += \
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
-
-$(call inherit-product, build/target/product/telephony.mk)
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
