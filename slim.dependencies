@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "SlimSaber/device_samsung_p4-common",
+    "target_path": "device/samsung/p4-common",
+    "branch": "jb4.3"
+  },
+  {
+    "repository": "SlimSaber/kernel_samsung_p4",
+    "target_path": "kernel/samsung/p4",
+    "branch": "jb4.3"
+  },
+  {
+    "repository": "SlimSaber/vendor_samsung_p4",
+    "target_path": "vendor/samsung/p4",
+    "branch": "jb4.3"
+  }
+]
